@@ -7,7 +7,6 @@
 
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin: 0px;
     padding: 16px 24px ;
@@ -27,7 +26,7 @@
 ul {
     display: flex;
     list-style-type: none;
-    padding: 0;
+    padding: 0  20px 0 0;
     margin: 0 20px 0 0;
     gap: 16px;
     
@@ -39,6 +38,7 @@ ul {
 .logo {
     height: 40px;
 }
+
 .containerright {
     display: flex;
     align-items: center;
@@ -184,3 +184,25 @@ a:hover {
     justify-content: space-between;
 }
 
+.layer4 {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.container4 {
+    display: flex;
+    background-color: #76a4ee;
+    justify-content: space-around;
+    padding: 32px ;
+    width: 70%;
+    border-radius: 10px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+}
+
+.text {
+    line-height: 1.5;
+    min-width: 200px;
+}
