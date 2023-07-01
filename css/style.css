@@ -192,9 +192,10 @@ a:hover {
 .container4 {
     display: flex;
     background-color: #76a4ee;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    min-width: 224px;
     padding: 32px ;
-    width: 70%;
+    width: 50%;
     border-radius: 10px;
     margin: auto;
     flex-wrap: wrap;
