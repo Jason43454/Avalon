@@ -207,3 +207,11 @@ a:hover {
     line-height: 1.5;
     min-width: 200px;
 }
+
+.bottom {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 28px 0;
+    color: lightgray;
+    font-size: 1.2em;
+}
